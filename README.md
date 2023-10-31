@@ -1,2 +1,3 @@
-# reorg.introduction-dynamics
-Introduction to Dynamics
+# lecture-dynamics
+
+Introduction to Economic Dynamics
