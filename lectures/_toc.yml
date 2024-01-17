@@ -1,0 +1,52 @@
+format: jb-book
+root: intro
+parts:
+- caption: Introduction to Dynamics
+  numbered: true
+  chapters:
+  - file: sir_model
+  - file: inventory_dynamics
+  - file: samuelson
+  - file: kesten_processes
+  - file: wealth_dynamics
+- caption: Asset Pricing & Finance
+  numbered: true
+  chapters:
+  - file: markov_asset
+  - file: ge_arrow
+  - file: harrison_kreps
+  - file: orth_proj
+  - file: lucas_model
+  - file: asset_pricing_lph
+  - file: black_litterman
+  - file: BCG_complete_mkts
+  - file: BCG_incomplete_mkts
+- caption: Search
+  numbered: true
+  chapters:
+  - file: mccall_model
+  - file: mccall_model_with_separation
+  - file: mccall_fitted_vfi
+  - file: mccall_correlated
+  - file: career
+  - file: jv
+  - file: odu
+  - file: mccall_q
+  - file: lake_model
+- caption: Optimal Savings
+  numbered: true
+  chapters:
+  - file: cake_eating_problem
+  - file: cake_eating_numerical
+  - file: optgrowth
+  - file: optgrowth_fast
+  - file: coleman_policy_iter
+  - file: egm_policy_iter
+  - file: ifp
+  - file: ifp_advanced
+- caption: Other
+  numbered: true
+  chapters:
+  - file: troubleshooting
+  - file: zreferences
+  - file: status
