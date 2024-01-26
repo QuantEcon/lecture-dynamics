@@ -59,7 +59,7 @@ This simplification of BCG’s setup helps us by
   recur in the BCG incomplete markets environment
 
 A Big K, little k analysis also played roles in [this quantecon lecture](https://python.quantecon.org/cass_koopmans_1.html) as well  as
-[here](https://python.quantecon.org/rational_expectations.html) and {doc}`here <dyn_stack>`.
+[here](https://python.quantecon.org/rational_expectations.html) and {doc}`here <dps:dyn_stack>`.
 
 ### Setup
 

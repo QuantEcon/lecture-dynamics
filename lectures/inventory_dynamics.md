@@ -42,7 +42,7 @@ A review of early literature and some macroeconomic implications can be found in
 
 Here our main aim is to learn more about simulation, time series and Markov dynamics.
 
-While our Markov environment and many of the concepts we consider are related to those found in our {doc}`lecture on finite Markov chains <finite_markov>`, the state space is a continuum in the current application.
+While our Markov environment and many of the concepts we consider are related to those found in our {doc}`lecture on finite Markov chains <tools:finite_markov>`, the state space is a continuum in the current application.
 
 Let's start with some imports
 
@@ -283,7 +283,7 @@ histogram just above.
 This model is asymptotically stationary, with a unique stationary
 distribution.
 
-(See the discussion of stationarity in {doc}`our lecture on AR(1) processes <ar1_processes>` for background --- the fundamental concepts are the same.)
+(See the discussion of stationarity in {doc}`our lecture on AR(1) processes <intro:ar1_processes>` for background --- the fundamental concepts are the same.)
 
 In particular, the sequence of marginal distributions $\{\psi_t\}$
 is converging to a unique limiting distribution that does not depend on

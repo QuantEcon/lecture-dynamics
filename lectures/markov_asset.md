@@ -304,7 +304,7 @@ You can think of
   factor $g_t = g(X_t)$.
 * $\ln g_t = \ln (d_{t+1} / d_t)$ is the growth rate of dividends.
 
-(For a refresher on notation and theory for finite Markov chains see {doc}`this lecture <finite_markov>`)
+(For a refresher on notation and theory for finite Markov chains see {doc}`this lecture <tools:finite_markov>`)
 
 The next figure shows a simulation, where
 

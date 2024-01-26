@@ -81,9 +81,9 @@ from numba import jit
 ### Prerequisites
 
 Before working through what follows, we recommend you read the
-{doc}`lecture on finite Markov chains <finite_markov>`.
+{doc}`lecture on finite Markov chains <tools:finite_markov>`.
 
-You will also need some basic {doc}`linear algebra <linear_algebra>` and probability.
+You will also need some basic {doc}`linear algebra <tools:linear_algebra>` and probability.
 
 ## The Model
 
@@ -413,7 +413,7 @@ plt.show()
 (dynamics_workers)=
 ## Dynamics of an Individual Worker
 
-An individual worker's employment dynamics are governed by a {doc}`finite state Markov process <finite_markov>`.
+An individual worker's employment dynamics are governed by a {doc}`finite state Markov process <tools:finite_markov>`.
 
 The worker can be in one of two states:
 
@@ -443,7 +443,7 @@ $$
 \psi_{t+1} = \psi_t P
 $$
 
-We also know from the {doc}`lecture on finite Markov chains <finite_markov>`
+We also know from the {doc}`lecture on finite Markov chains <tools:finite_markov>`
 that if $\alpha \in (0, 1)$ and $\lambda \in (0, 1)$, then
 $P$ has a unique stationary distribution, denoted here by $\psi^*$.
 
