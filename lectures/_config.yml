@@ -25,7 +25,7 @@ bibtex_bibfiles:
    - _static/quant-econ.bib
 
 html:
-  baseurl: https://python.quantecon.org/
+  baseurl: https://dynamics.quantecon.org/
 
 latex:
    latex_documents:
@@ -74,15 +74,10 @@ sphinx:
           url: http://www.tomsargent.com/
         - name: John Stachurski
           url: https://johnstachurski.net/
-      authors:
-        - name: Thomas J. Sargent
-          url: http://www.tomsargent.com/
-        - name: John Stachurski
-          url: https://johnstachurski.net/
       header_organisation_url: https://quantecon.org
       header_organisation: QuantEcon
-      repository_url: https://github.com/QuantEcon/lecture-python.myst
-      nb_repository_url: https://github.com/QuantEcon/lecture-python.notebooks
+      repository_url: https://github.com/QuantEcon/lecture-dynamics.myst
+      nb_repository_url: https://github.com/QuantEcon/lecture-dynamics.notebooks
       twitter: quantecon
       twitter_logo_url: https://assets.quantecon.org/img/qe-twitter-logo.png
       og_logo_url: https://assets.quantecon.org/img/qe-og-logo.png
@@ -130,8 +125,8 @@ sphinx:
       heavy_tails: https://intro.quantecon.org/heavy_tails.html
     tojupyter_static_file_path: ["source/_static", "_static"]
     tojupyter_target_html: true
-    tojupyter_urlpath: "https://python.quantecon.org/"
-    tojupyter_image_urlpath: "https://python.quantecon.org/_static/"
+    tojupyter_urlpath: "https://dynamics.quantecon.org/"
+    tojupyter_image_urlpath: "https://dynamics.quantecon.org/_static/"
     tojupyter_lang_synonyms: ["ipython", "ipython3", "python"]
     tojupyter_kernels:
       python3:
