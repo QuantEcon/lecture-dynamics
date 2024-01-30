@@ -287,9 +287,7 @@ Requirement already satisfied: requests in /home/runner/miniconda3/envs/quanteco
 Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
 Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
 Requirement already satisfied: llvmlite&lt;0.41,&gt;=0.40.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.40.0)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (3.4)
 Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (1.26.16)
 Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2023.7.22)
@@ -801,17 +799,17 @@ Progress: EPOCHs = 18000
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[5030.33091374    0.        ]
- [5406.45585865 5222.85040655]
- [5285.16578671 5248.36901977]
- [5411.68598266 5311.58360812]
- [5304.80562766 5295.38717117]
- [5279.82782029 5243.02183063]
- [5364.64187057 5229.30269467]
- [5282.60318819 5246.19452673]
- [5512.81013019 5222.79428905]
- [5300.97400502 5500.00066688]
- [5334.81951733 6000.        ]]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[2750.66171732   58.37719309]
+ [5343.62039433 5184.12761459]
+ [5431.99315537 5270.18631235]
+ [5323.6432479  5225.73867082]
+ [5498.79221079 5492.44460336]
+ [5505.92838719 5279.3135874 ]
+ [5434.24327996 5296.10600802]
+ [5364.21345504 5273.41067615]
+ [5303.63028844 5290.23691017]
+ [5327.48856577 5500.00000273]
+ [5332.49759811 6000.        ]]
 </pre></div>
 </div>
 </div>
@@ -826,8 +824,8 @@ Progress: EPOCHs = 18000
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[5030.33091374 5406.45585865 5285.16578671 5411.68598266 5304.80562766
- 5279.82782029 5364.64187057 5282.60318819 5512.81013019 5500.00066688
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[2750.66171732 5343.62039433 5431.99315537 5323.6432479  5498.79221079
+ 5505.92838719 5434.24327996 5364.21345504 5303.63028844 5500.00000273
  6000.        ]
 </pre></div>
 </div>
@@ -848,7 +846,7 @@ Progress: EPOCHs = 18000
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/b2c557eef4e7210716da5be2b21e3213d08cd74f3ea4cda5eecee05ddd5b92be.png" src="_images/b2c557eef4e7210716da5be2b21e3213d08cd74f3ea4cda5eecee05ddd5b92be.png" />
+<img alt="_images/570025028cddf869f39e52c0fb5c55a9457be08d006d1847b4eca4e7a5229cc1.png" src="_images/570025028cddf869f39e52c0fb5c55a9457be08d006d1847b4eca4e7a5229cc1.png" />
 </div>
 </div>
 <p>Now, let us compute the case with a larger state space: <span class="math notranslate nohighlight">\(n=30\)</span> instead of <span class="math notranslate nohighlight">\(n=10\)</span>.</p>
@@ -964,7 +962,7 @@ Progress: EPOCHs = 160000
 Progress: EPOCHs = 200000
 </pre></div>
 </div>
-<img alt="_images/ed1c4dbd7413c53459bdacf34d09b7dff52b332b8c57a893f2d104d0a3c1065c.png" src="_images/ed1c4dbd7413c53459bdacf34d09b7dff52b332b8c57a893f2d104d0a3c1065c.png" />
+<img alt="_images/07ae94254bc2024040f057eecb2d469ad16f8614deb955d05276e144b42c185c.png" src="_images/07ae94254bc2024040f057eecb2d469ad16f8614deb955d05276e144b42c185c.png" />
 </div>
 </div>
 <p>The above graphs indicates that</p>
@@ -1036,7 +1034,7 @@ exploitation only.</p>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Progress: EPOCHs = 200000
 </pre></div>
 </div>
-<img alt="_images/525815ca70f5027c68d995e89521e9b0008846b619079f7fd0bdd6edeb9621ca.png" src="_images/525815ca70f5027c68d995e89521e9b0008846b619079f7fd0bdd6edeb9621ca.png" />
+<img alt="_images/6259bcd81e31f6eb6ba2856dc981be3633feb80fd2f795fb49ba88e878d4dc1f.png" src="_images/6259bcd81e31f6eb6ba2856dc981be3633feb80fd2f795fb49ba88e878d4dc1f.png" />
 </div>
 </div>
 </section>
