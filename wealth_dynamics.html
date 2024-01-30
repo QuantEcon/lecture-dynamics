@@ -100,6 +100,13 @@
     <script src="_static/scripts/quantecon-book-theme.js?digest=eed9c059a3ee152aae2353ec732f0a6d12e6aa07"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-Y9JY7E8Z7N"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-Y9JY7E8Z7N');
+            </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -280,10 +287,10 @@ Requirement already satisfied: numpy&gt;=1.17.0 in /home/runner/miniconda3/envs/
 Requirement already satisfied: requests in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (2.31.0)
 Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
 Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
+Requirement already satisfied: llvmlite&lt;0.41,&gt;=0.40.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.40.0)
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: llvmlite&lt;0.41,&gt;=0.40.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.40.0)
-Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (3.4)
 Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (1.26.16)
 Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2023.7.22)
@@ -367,7 +374,7 @@ inequality.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/a19a00f41fafbcd463f77415a90b4bfc779ddad85bc5a7361184fed0ac49ae54.png" src="_images/a19a00f41fafbcd463f77415a90b4bfc779ddad85bc5a7361184fed0ac49ae54.png" />
+<img alt="_images/8cde6fd94e1186395d483bf3de544d0d85a335b5f8ff6413e551e3984efc5fe3.png" src="_images/8cde6fd94e1186395d483bf3de544d0d85a335b5f8ff6413e551e3984efc5fe3.png" />
 </div>
 </div>
 <p>This curve can be understood as follows: if point <span class="math notranslate nohighlight">\((x,y)\)</span> lies on the curve, it means that, collectively, the bottom <span class="math notranslate nohighlight">\((100x)\%\)</span> of the population holds <span class="math notranslate nohighlight">\((100y)\%\)</span> of the wealth.</p>
@@ -398,7 +405,7 @@ observations.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/8303faf1eb1be8839898f5e3598f5054dcb53dbbe20a4e48c4f0467f49ee1ca0.png" src="_images/8303faf1eb1be8839898f5e3598f5054dcb53dbbe20a4e48c4f0467f49ee1ca0.png" />
+<img alt="_images/dc2bbd9deaf5d4e6f60e2320e4ddaeeb8eae5af99ee7d60752f04e3bf09b8c54.png" src="_images/dc2bbd9deaf5d4e6f60e2320e4ddaeeb8eae5af99ee7d60752f04e3bf09b8c54.png" />
 </div>
 </div>
 <p>You can see that, as the tail parameter of the Pareto distribution increases, inequality decreases.</p>
@@ -440,7 +447,7 @@ this at each fixed value of <span class="math notranslate nohighlight">\(a\)</sp
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/b2b72597d2521d643cab060d2434cab6b75dfc8070a4a27a89429e16842c4cfd.png" src="_images/b2b72597d2521d643cab060d2434cab6b75dfc8070a4a27a89429e16842c4cfd.png" />
+<img alt="_images/19fe4e3fc8922055d823f477c4768dd3d7d2349274333081aca2f49ed283aff7.png" src="_images/19fe4e3fc8922055d823f477c4768dd3d7d2349274333081aca2f49ed283aff7.png" />
 </div>
 </div>
 <p>The simulation shows that the fit is good.</p>
@@ -675,7 +682,7 @@ the implications for the wealth distribution.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/860d11ce625385c646a610575f44128b18702edeef4727b1613a79e2049eb708.png" src="_images/860d11ce625385c646a610575f44128b18702edeef4727b1613a79e2049eb708.png" />
+<img alt="_images/b1e13a22cc1db85e355b07364e584a2ebb1a1baf4b1f2eb7928b4d4fe3d281e3.png" src="_images/b1e13a22cc1db85e355b07364e584a2ebb1a1baf4b1f2eb7928b4d4fe3d281e3.png" />
 </div>
 </div>
 <p>Notice the large spikes in wealth over time.</p>
@@ -728,8 +735,8 @@ curve and Gini coefficient.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/35aadf01add64164933e7dfe1dd1d0b2cb35fc026ab084b324c416b1f4933156.png" src="_images/35aadf01add64164933e7dfe1dd1d0b2cb35fc026ab084b324c416b1f4933156.png" />
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.7 s, sys: 72.7 ms, total: 56.8 s
+<img alt="_images/54a154196cd7b3081c40b2494e687fc3561d3ae0f456fd4a0be1dbe428e67d86.png" src="_images/54a154196cd7b3081c40b2494e687fc3561d3ae0f456fd4a0be1dbe428e67d86.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.9 s, sys: 98.5 ms, total: 57 s
 Wall time: 15 s
 </pre></div>
 </div>
@@ -754,7 +761,7 @@ hardware.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/c6da776ca311fe39f6159c4a8424fbc054095821820e2095e380d8d27d14e352.png" src="_images/c6da776ca311fe39f6159c4a8424fbc054095821820e2095e380d8d27d14e352.png" />
+<img alt="_images/3e3ac02ba6548cbaff7e5245c8a35ab8f48826a706dfa69ded90728ce62d6110.png" src="_images/3e3ac02ba6548cbaff7e5245c8a35ab8f48826a706dfa69ded90728ce62d6110.png" />
 </div>
 </div>
 <p>Once again, we see that inequality increases as returns on financial income
@@ -782,9 +789,9 @@ volatility term <span class="math notranslate nohighlight">\(\sigma_r\)</span> i
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/4109518c89312e22075c583525dd38d50b5fd77cbbc67858f725d7e7f8e566fc.png" src="_images/4109518c89312e22075c583525dd38d50b5fd77cbbc67858f725d7e7f8e566fc.png" />
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.2 s, sys: 19.6 ms, total: 56.2 s
-Wall time: 14.3 s
+<img alt="_images/885767a1266729d9769fc037d007c58fb9203daf5012c7fd76dafdce02e1a43f.png" src="_images/885767a1266729d9769fc037d007c58fb9203daf5012c7fd76dafdce02e1a43f.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.3 s, sys: 12 ms, total: 56.3 s
+Wall time: 14.4 s
 </pre></div>
 </div>
 </div>
@@ -834,7 +841,7 @@ simulation.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/10faca3ac873d3427ff1e2090e2a557557f2570c9386dcd1ca31fd8704f11cfb.png" src="_images/10faca3ac873d3427ff1e2090e2a557557f2570c9386dcd1ca31fd8704f11cfb.png" />
+<img alt="_images/665eb893a24f5054a11488fe43e37854ded36eebf47a5fd1df0a4402a8ac0aa7.png" src="_images/665eb893a24f5054a11488fe43e37854ded36eebf47a5fd1df0a4402a8ac0aa7.png" />
 </div>
 </div>
 <p>In general, for a Pareto distribution, a higher tail index implies less weight
@@ -905,7 +912,7 @@ this what you see?</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/f6aa5479ddc02a360006abf0de91e6cbccc34b1d8e3e912078266693951a0eda.png" src="_images/f6aa5479ddc02a360006abf0de91e6cbccc34b1d8e3e912078266693951a0eda.png" />
+<img alt="_images/614285dfc14a6ac19f9159b57ac0dcf3f33ce66cc48fc3f93e49334cf62f5119.png" src="_images/614285dfc14a6ac19f9159b57ac0dcf3f33ce66cc48fc3f93e49334cf62f5119.png" />
 </div>
 </div>
 </section>
