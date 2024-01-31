@@ -29,7 +29,7 @@ kernelspec:
 
 ## Overview
 
-This lecture describes extensions to the classical mean-variance portfolio theory summarized in our lecture [Elementary Asset Pricing Theory](https://python-advanced.quantecon.org/asset_pricing_lph.html).
+This lecture describes extensions to the classical mean-variance portfolio theory summarized in our lecture {doc}`Elementary Asset Pricing Theory <dynam:asset_pricing_lph>`.
 
 The classic theory described there assumes that a decision maker completely trusts the statistical model that he posits to govern the joint distribution of returns on a list of available assets.
 
@@ -37,7 +37,7 @@ Both extensions described here put distrust of that statistical model into the m
 
 One is a model of Black and Litterman {cite}`black1992global` that imputes to the decision maker distrust of historically estimated mean returns but still complete trust of estimated covariances of returns.
 
-The second model also imputes to the decision maker doubts about his  statistical model, but now by saying that, because of that distrust,  the decision maker uses a version of  robust control theory described in this lecture [Robustness](https://python-advanced.quantecon.org/robustness.html).
+The second model also imputes to the decision maker doubts about his  statistical model, but now by saying that, because of that distrust,  the decision maker uses a version of  robust control theory described in this lecture {doc}`Robustness <tools:robustness>`.
 
 
 The famous **Black-Litterman** (1992) {cite}`black1992global` portfolio choice model was motivated by the finding that with high frequency or

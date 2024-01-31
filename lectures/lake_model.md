@@ -914,7 +914,7 @@ This is safer and means we don't need to create a fresh instance for every new p
 
 In this exercise, your task is to arrange the `LakeModel` class by using descriptors and decorators such as `@property`.
 
-(If you need to refresh your understanding of how these work, consult [this lecture](https://python-programming.quantecon.org/python_advanced_features.html).)
+(If you need to refresh your understanding of how these work, consult {doc}`this lecture <pyprog:python_advanced_features>`.)
 ```
 
 ```{solution-start} lm_ex1

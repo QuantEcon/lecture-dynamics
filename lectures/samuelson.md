@@ -36,7 +36,7 @@ tags: [hide-output]
 
 This lecture creates non-stochastic and stochastic versions of Paul Samuelson's celebrated multiplier accelerator model {cite}`Samuelson1939`.
 
-In doing so, we extend the example of the Solow model class in [our second OOP lecture](https://python-programming.quantecon.org/python_oop.html).
+In doing so, we extend the example of the Solow model class in {doc}`our second OOP lecture <pyprog:python_oop>`.
 
 Our objectives are to
 
@@ -384,7 +384,7 @@ We use the Samuelson multiplier-accelerator model as a vehicle for teaching how 
 
 We want to have a method in the class that automatically generates a simulation, either non-stochastic ($\sigma=0$) or stochastic ($\sigma > 0$).
 
-We also show how to map the Samuelson model into a simple instance of the `LinearStateSpace` class described [here](https://python.quantecon.org/linear_models.html).
+We also show how to map the Samuelson model into a simple instance of the `LinearStateSpace` class described {doc}`here <dle:linear_models>`.
 
 We can use a `LinearStateSpace` instance to do various things that we did above with our homemade function and class.
 

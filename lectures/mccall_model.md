@@ -367,7 +367,7 @@ plt.show()
 
 We are going to use Numba to accelerate our code.
 
-* See, in particular, the discussion of `@jitclass` in [our lecture on Numba](https://python-programming.quantecon.org/numba.html).
+* See, in particular, the discussion of `@jitclass` in {doc}`our lecture on Numba <pyprog:numba>`.
 
 The following helps Numba by providing some type
 
