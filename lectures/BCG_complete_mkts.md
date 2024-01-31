@@ -58,8 +58,8 @@ This simplification of BCG’s setup helps us by
 - introducing `Big K, little k` issues in a simple context that will
   recur in the BCG incomplete markets environment
 
-A Big K, little k analysis also played roles in [this quantecon lecture](https://python.quantecon.org/cass_koopmans_1.html) as well  as
-[here](https://python.quantecon.org/rational_expectations.html) and {doc}`here <dps:dyn_stack>`.
+A Big K, little k analysis also played roles in {doc}`this quantecon lecture <eqm:cass_koopmans_1>` as well  as
+{doc}`here <eqm:rational_expectations>` and {doc}`here <dps:dyn_stack>`.
 
 ### Setup
 

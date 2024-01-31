@@ -58,9 +58,9 @@ We'll also describe how  practitioners have implemented the model using
 * time series of returns on various assets
 
 
-For background and basic  concepts about linear least squares projections, see our lecture [orthogonal projections and their applications](https://python-advanced.quantecon.org/orth_proj.html).
+For background and basic  concepts about linear least squares projections, see our lecture {doc}`orthogonal projections and their applications <dynam:orth_proj>`.
 
-As a sequel to the material here, please see our lecture [two modifications of mean-variance portfolio theory](https://python-advanced.quantecon.org/black_litterman.html).
+As a sequel to the material here, please see our lecture {doc}`two modifications of mean-variance portfolio theory <dynam:black_litterman>`.
 
 ## Key Equation
 
@@ -94,10 +94,10 @@ factor $m \geq 0$.
 In order to say something about the **uniqueness** of a stochastic discount factor, we  would have to impose more theoretical structure than we do in this
 lecture.
 
-For example, in **complete markets** models like those illustrated in this lecture [equilibrium capital structures with incomplete markets](https://python-advanced.quantecon.org/BCG_incomplete_mkts.html),
+For example, in **complete markets** models like those illustrated in this lecture {doc}`equilibrium capital structures with incomplete markets <dynam:BCG_incomplete_mkts>`,
 the stochastic discount factor is unique.
 
-In **incomplete markets** models like those illustrated in this lecture [the Aiyagari model](https://python.quantecon.org/aiyagari.html), the stochastic discount factor is not unique.
+In **incomplete markets** models like those illustrated in this lecture {doc}`the Aiyagari model <eqm:aiyagari>`, the stochastic discount factor is not unique.
 
 
 ## Implications of Key Equation
