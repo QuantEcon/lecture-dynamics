@@ -16,7 +16,6 @@ parts:
   - file: ge_arrow
   - file: harrison_kreps
   - file: orth_proj
-  - file: lucas_model
   - file: asset_pricing_lph
   - file: black_litterman
   - file: BCG_complete_mkts
