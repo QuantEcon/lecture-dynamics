@@ -281,20 +281,18 @@ is <a class="reference external" href="https://jax.quantecon.org/wealth_dynamics
 <span class="expanded">Hide code cell output</span>
 </summary>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: quantecon in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.7.1)
-Requirement already satisfied: numba&gt;=0.49.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (0.57.1)
-Requirement already satisfied: numpy&gt;=1.17.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.24.3)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: quantecon in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.7.2)
+Requirement already satisfied: numba&gt;=0.49.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (0.59.1)
+Requirement already satisfied: numpy&gt;=1.17.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.26.4)
 Requirement already satisfied: requests in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (2.31.0)
-Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
-Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
-Requirement already satisfied: llvmlite&lt;0.41,&gt;=0.40.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.40.0)
+Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.4)
+Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.12)
+Requirement already satisfied: llvmlite&lt;0.43,&gt;=0.42.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.42.0)
 Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (3.4)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (1.26.16)
-Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2023.7.22)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: mpmath&gt;=0.19 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from sympy-&gt;quantecon) (1.3.0)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.7)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2024.2.2)
+Requirement already satisfied: mpmath&gt;=0.19 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from sympy-&gt;quantecon) (1.3.0)
 </pre></div>
 </div>
 </div>
@@ -314,7 +312,7 @@ tails.</p>
 <p>The wealth distribution in many countries exhibits a Pareto tail</p>
 <ul class="simple">
 <li><p>See <a class="reference external" href="https://intro.quantecon.org/heavy_tails.html" title="(in Python)"><span class="xref std std-doc">this lecture</span></a> for a definition.</p></li>
-<li><p>For a review of the empirical evidence, see, for example, <span id="id1">[<a class="reference internal" href="zreferences.html#id55" title="Jess Benhabib and Alberto Bisin. Skewed wealth distributions: theory and empirics. Journal of Economic Literature, 56(4):1261–91, 2018.">BB18</a>]</span>.</p></li>
+<li><p>For a review of the empirical evidence, see, for example, <span id="id1">[<a class="reference internal" href="zreferences.html#id55" title="Jess Benhabib and Alberto Bisin. Skewed wealth distributions: theory and empirics. Journal of Economic Literature, 56(4):1261–91, 2018.">Benhabib and Bisin, 2018</a>]</span>.</p></li>
 </ul>
 <p>This is consistent with high concentration of wealth amongst the richest households.</p>
 <p>It also gives us a way to quantify such concentration, in terms of the tail index.</p>
@@ -374,7 +372,7 @@ inequality.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/722474bd9307a724f560fd56ad227b1fc1a1fc92e92b8ab963c52cdbd9fbf804.png" src="_images/722474bd9307a724f560fd56ad227b1fc1a1fc92e92b8ab963c52cdbd9fbf804.png" />
+<img alt="_images/2bc3d758a0eef589bd74eace29c6cc5d8db7dfa54f1fc47bd03f7b4a02557a1b.png" src="_images/2bc3d758a0eef589bd74eace29c6cc5d8db7dfa54f1fc47bd03f7b4a02557a1b.png" />
 </div>
 </div>
 <p>This curve can be understood as follows: if point <span class="math notranslate nohighlight">\((x,y)\)</span> lies on the curve, it means that, collectively, the bottom <span class="math notranslate nohighlight">\((100x)\%\)</span> of the population holds <span class="math notranslate nohighlight">\((100y)\%\)</span> of the wealth.</p>
@@ -405,7 +403,7 @@ observations.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/397f1bb02d023fc392afb780f846eda2fb99b18420521ac3185bf3d98ea6e933.png" src="_images/397f1bb02d023fc392afb780f846eda2fb99b18420521ac3185bf3d98ea6e933.png" />
+<img alt="_images/f6ef54339e269375c152906be0d1d9f08ec6215cf8bdc97cb304aca45d7e1759.png" src="_images/f6ef54339e269375c152906be0d1d9f08ec6215cf8bdc97cb304aca45d7e1759.png" />
 </div>
 </div>
 <p>You can see that, as the tail parameter of the Pareto distribution increases, inequality decreases.</p>
@@ -447,7 +445,7 @@ this at each fixed value of <span class="math notranslate nohighlight">\(a\)</sp
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/b5bab1358146869eaf3ae2fe61b0c9bf0ea06a885b4278c6702dbae7a5d6e3e4.png" src="_images/b5bab1358146869eaf3ae2fe61b0c9bf0ea06a885b4278c6702dbae7a5d6e3e4.png" />
+<img alt="_images/c1e04ca6a7a0cd31093fdabdc200724c388de0de4668fa14f004011d1f90e22c.png" src="_images/c1e04ca6a7a0cd31093fdabdc200724c388de0de4668fa14f004011d1f90e22c.png" />
 </div>
 </div>
 <p>The simulation shows that the fit is good.</p>
@@ -682,7 +680,7 @@ the implications for the wealth distribution.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/1bc9e2031c25b50001f7db58080e6dc7709c4139e0058576572759b3be8a246a.png" src="_images/1bc9e2031c25b50001f7db58080e6dc7709c4139e0058576572759b3be8a246a.png" />
+<img alt="_images/2188a01c61d23736867c0f83acd50de490918f69c497669702815b7cff56ce51.png" src="_images/2188a01c61d23736867c0f83acd50de490918f69c497669702815b7cff56ce51.png" />
 </div>
 </div>
 <p>Notice the large spikes in wealth over time.</p>
@@ -735,9 +733,9 @@ curve and Gini coefficient.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/84a9b75d8a8e7b867fa913a24a9cbe248dd7b1340d5582c25fb737df404d0a8f.png" src="_images/84a9b75d8a8e7b867fa913a24a9cbe248dd7b1340d5582c25fb737df404d0a8f.png" />
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.7 s, sys: 76.8 ms, total: 56.7 s
-Wall time: 14.9 s
+<img alt="_images/a71d2aff4e6cb7bedb3f7b6321c243c0d3383f5d84a5c69d707ae465ccc7a4ef.png" src="_images/a71d2aff4e6cb7bedb3f7b6321c243c0d3383f5d84a5c69d707ae465ccc7a4ef.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.8 s, sys: 92.5 ms, total: 56.9 s
+Wall time: 15 s
 </pre></div>
 </div>
 </div>
@@ -761,7 +759,7 @@ hardware.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/a804b87a96c655bd1f173b1b94df334ad51d00bf8497d52b9292161cabaf8b9b.png" src="_images/a804b87a96c655bd1f173b1b94df334ad51d00bf8497d52b9292161cabaf8b9b.png" />
+<img alt="_images/229b595570022b322af30036419f621bd5d0a8c84017456f5d466b4b71bcf525.png" src="_images/229b595570022b322af30036419f621bd5d0a8c84017456f5d466b4b71bcf525.png" />
 </div>
 </div>
 <p>Once again, we see that inequality increases as returns on financial income
@@ -789,8 +787,8 @@ volatility term <span class="math notranslate nohighlight">\(\sigma_r\)</span> i
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/32e29551315b1c916d9949fd61948cea46e3367758a0489d778cb287c99433b7.png" src="_images/32e29551315b1c916d9949fd61948cea46e3367758a0489d778cb287c99433b7.png" />
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.1 s, sys: 24.1 ms, total: 56.2 s
+<img alt="_images/716bb919c0e8c3878ca710536d664140ea2e505a4a5be4c6edf199dde511feef.png" src="_images/716bb919c0e8c3878ca710536d664140ea2e505a4a5be4c6edf199dde511feef.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 56.2 s, sys: 16 ms, total: 56.3 s
 Wall time: 14.3 s
 </pre></div>
 </div>
@@ -841,7 +839,7 @@ simulation.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/7cfccfbebdca890111d483bee9f1998c4c77d273aeaea45932865e7093d08e4b.png" src="_images/7cfccfbebdca890111d483bee9f1998c4c77d273aeaea45932865e7093d08e4b.png" />
+<img alt="_images/b6b69dd32b32ae1260133b7267083549edac3ea34ad49b95c0e54952456f6614.png" src="_images/b6b69dd32b32ae1260133b7267083549edac3ea34ad49b95c0e54952456f6614.png" />
 </div>
 </div>
 <p>In general, for a Pareto distribution, a higher tail index implies less weight
@@ -912,7 +910,7 @@ this what you see?</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/ef576031d447161d0c63cf6c29f00e353f328b7ef9c6bb0d4a21979826c9cecb.png" src="_images/ef576031d447161d0c63cf6c29f00e353f328b7ef9c6bb0d4a21979826c9cecb.png" />
+<img alt="_images/9640f1f65e73449f94a8abb0a1d7827be3c21d09c6b3eafbb2b2f8b52badcd73.png" src="_images/9640f1f65e73449f94a8abb0a1d7827be3c21d09c6b3eafbb2b2f8b52badcd73.png" />
 </div>
 </div>
 </section>
@@ -1028,28 +1026,23 @@ this what you see?</p>
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="lucas_model.html">
-   10. Asset Pricing II: The Lucas Asset Pricing Model
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="asset_pricing_lph.html">
-   11. Elementary Asset Pricing Theory
+   10. Elementary Asset Pricing Theory
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="black_litterman.html">
-   12. Two Modifications of Mean-Variance Portfolio Theory
+   11. Two Modifications of Mean-Variance Portfolio Theory
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="BCG_complete_mkts.html">
-   13. Irrelevance of Capital Structures with Complete Markets
+   12. Irrelevance of Capital Structures with Complete Markets
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="BCG_incomplete_mkts.html">
-   14. Equilibrium Capital Structures with Incomplete Markets
+   13. Equilibrium Capital Structures with Incomplete Markets
   </a>
  </li>
 </ul>
@@ -1061,47 +1054,47 @@ this what you see?</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_model.html">
-   15. Job Search I: The McCall Search Model
+   14. Job Search I: The McCall Search Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_model_with_separation.html">
-   16. Job Search II: Search and Separation
+   15. Job Search II: Search and Separation
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_fitted_vfi.html">
-   17. Job Search III: Fitted Value Function Iteration
+   16. Job Search III: Fitted Value Function Iteration
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_correlated.html">
-   18. Job Search IV: Correlated Wage Offers
+   17. Job Search IV: Correlated Wage Offers
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="career.html">
-   19. Job Search V: Modeling Career Choice
+   18. Job Search V: Modeling Career Choice
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="jv.html">
-   20. Job Search VI: On-the-Job Search
+   19. Job Search VI: On-the-Job Search
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="odu.html">
-   21. Job Search VII: Search with Learning
+   20. Job Search VII: Search with Learning
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_q.html">
-   22. Job Search VIII: A McCall Worker Q-Learns
+   21. Job Search VIII: A McCall Worker Q-Learns
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="lake_model.html">
-   23. A Lake Model of Employment and Unemployment
+   22. A Lake Model of Employment and Unemployment
   </a>
  </li>
 </ul>
@@ -1113,42 +1106,42 @@ this what you see?</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="cake_eating_problem.html">
-   24. Cake Eating I: Introduction to Optimal Saving
+   23. Cake Eating I: Introduction to Optimal Saving
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="cake_eating_numerical.html">
-   25. Cake Eating II: Numerical Methods
+   24. Cake Eating II: Numerical Methods
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="optgrowth.html">
-   26. Optimal Growth I: The Stochastic Optimal Growth Model
+   25. Optimal Growth I: The Stochastic Optimal Growth Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="optgrowth_fast.html">
-   27. Optimal Growth II: Accelerating the Code with Numba
+   26. Optimal Growth II: Accelerating the Code with Numba
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="coleman_policy_iter.html">
-   28. Optimal Growth III: Time Iteration
+   27. Optimal Growth III: Time Iteration
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="egm_policy_iter.html">
-   29. Optimal Growth IV: The Endogenous Grid Method
+   28. Optimal Growth IV: The Endogenous Grid Method
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ifp.html">
-   30. The Income Fluctuation Problem I: Basic Model
+   29. The Income Fluctuation Problem I: Basic Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ifp_advanced.html">
-   31. The Income Fluctuation Problem II: Stochastic Returns on Assets
+   30. The Income Fluctuation Problem II: Stochastic Returns on Assets
   </a>
  </li>
 </ul>
@@ -1160,17 +1153,17 @@ this what you see?</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="troubleshooting.html">
-   32. Troubleshooting
+   31. Troubleshooting
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="zreferences.html">
-   33. References
+   32. References
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="status.html">
-   34. Execution Statistics
+   33. Execution Statistics
   </a>
  </li>
 </ul>

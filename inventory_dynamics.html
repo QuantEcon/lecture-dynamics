@@ -258,7 +258,7 @@ follow so-called s-S inventory dynamics.</p>
 <li><p>order sufficient quantities to bring their inventory back up to capacity <span class="math notranslate nohighlight">\(S\)</span>.</p></li>
 </ol>
 <p>These kinds of policies are common in practice and also optimal in certain circumstances.</p>
-<p>A review of early literature and some macroeconomic implications can be found in <span id="id1">[<a class="reference internal" href="zreferences.html#id36" title="Andrew S Caplin. The variability of aggregate demand with (s, s) inventory policies. Econometrica, pages 1395–1409, 1985.">Cap85</a>]</span>.</p>
+<p>A review of early literature and some macroeconomic implications can be found in <span id="id1">[<a class="reference internal" href="zreferences.html#id36" title="Andrew S Caplin. The variability of aggregate demand with (s, s) inventory policies. Econometrica, pages 1395–1409, 1985.">Caplin, 1985</a>]</span>.</p>
 <p>Here our main aim is to learn more about simulation, time series and Markov dynamics.</p>
 <p>While our Markov environment and many of the concepts we consider are related to those found in our <a class="reference external" href="https://tools-techniques.quantecon.org/finite_markov.html" title="(in Python)"><span class="xref std std-doc">lecture on finite Markov chains</span></a>, the state space is a continuum in the current application.</p>
 <p>Let’s start with some imports</p>
@@ -366,7 +366,7 @@ and standard normal.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/ae82d06725b15f10dbd587f5eb66c18931b0f4af15d70b73144a19b7344e7f06.png" src="_images/ae82d06725b15f10dbd587f5eb66c18931b0f4af15d70b73144a19b7344e7f06.png" />
+<img alt="_images/04be41a7044c264b02944b8a8452474664f342e29564658e1a988fda9b64e4ca.png" src="_images/04be41a7044c264b02944b8a8452474664f342e29564658e1a988fda9b64e4ca.png" />
 </div>
 </div>
 <p>Now let’s simulate multiple paths in order to build a more complete picture of
@@ -390,7 +390,7 @@ the probabilities of different outcomes:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/0e4e3c9536732929498c97d428e09474fa4f15ec20e31c73b0369b67c2d6c324.png" src="_images/0e4e3c9536732929498c97d428e09474fa4f15ec20e31c73b0369b67c2d6c324.png" />
+<img alt="_images/48da0563dead6050e7e02b25f623e02a15070df500f30dfeb35e5489587cccf2.png" src="_images/48da0563dead6050e7e02b25f623e02a15070df500f30dfeb35e5489587cccf2.png" />
 </div>
 </div>
 </section>
@@ -444,7 +444,7 @@ condition <span class="math notranslate nohighlight">\(X_0\)</span>.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/c4cd4e1b98d07182071297169bfd73b606505137cb33c1b5ecd160042eb6fb7a.png" src="_images/c4cd4e1b98d07182071297169bfd73b606505137cb33c1b5ecd160042eb6fb7a.png" />
+<img alt="_images/2da5e879dbf80513938fae3f05add0ac16f0564abc9b4bdc46f2d9ed8fd55838.png" src="_images/2da5e879dbf80513938fae3f05add0ac16f0564abc9b4bdc46f2d9ed8fd55838.png" />
 </div>
 </div>
 <p>We can build up a clearer picture by drawing more samples</p>
@@ -471,7 +471,7 @@ condition <span class="math notranslate nohighlight">\(X_0\)</span>.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/234dc573e2ddbad2f73609095b96469132302056be8135180ebf25316956c5c5.png" src="_images/234dc573e2ddbad2f73609095b96469132302056be8135180ebf25316956c5c5.png" />
+<img alt="_images/bfc3ed9b22cf7879962a025e8f81bcf6c241ebff3903d143eac1770fb336bc4b.png" src="_images/bfc3ed9b22cf7879962a025e8f81bcf6c241ebff3903d143eac1770fb336bc4b.png" />
 </div>
 </div>
 <p>Note that the distribution is bimodal</p>
@@ -508,7 +508,7 @@ condition <span class="math notranslate nohighlight">\(X_0\)</span>.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/0347b90dab8af84da4be01d0835efa593922772e170ecfacee4c258b4c28d210.png" src="_images/0347b90dab8af84da4be01d0835efa593922772e170ecfacee4c258b4c28d210.png" />
+<img alt="_images/08668d070946d1968dfcd2743bf59504f79abb0fdc93e5e71ed8c3523716e788.png" src="_images/08668d070946d1968dfcd2743bf59504f79abb0fdc93e5e71ed8c3523716e788.png" />
 </div>
 </div>
 <p>The allocation of probability mass is similar to what was shown by the
@@ -596,7 +596,7 @@ code efficiently.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/40957f4699eda8656d066fc80e013abade6b655a56e5b4a9f67fe07b0968fc3d.png" src="_images/40957f4699eda8656d066fc80e013abade6b655a56e5b4a9f67fe07b0968fc3d.png" />
+<img alt="_images/d2dcd8d9bb35773d8d79fe17ef7f1db1aa597fa3d5fce26425c7fcae06abfc64.png" src="_images/d2dcd8d9bb35773d8d79fe17ef7f1db1aa597fa3d5fce26425c7fcae06abfc64.png" />
 </div>
 </div>
 <p>Notice that by <span class="math notranslate nohighlight">\(t=500\)</span> or <span class="math notranslate nohighlight">\(t=750\)</span> the densities are barely
@@ -663,9 +663,9 @@ specialized function rather than using the class above.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Frequency of at least two stock outs = 0.44803
-CPU times: user 2.57 s, sys: 4.31 ms, total: 2.58 s
-Wall time: 914 ms
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Frequency of at least two stock outs = 0.447776
+CPU times: user 2.57 s, sys: 7.98 ms, total: 2.58 s
+Wall time: 928 ms
 </pre></div>
 </div>
 </div>
@@ -787,28 +787,23 @@ above.</p>
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="lucas_model.html">
-   10. Asset Pricing II: The Lucas Asset Pricing Model
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="asset_pricing_lph.html">
-   11. Elementary Asset Pricing Theory
+   10. Elementary Asset Pricing Theory
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="black_litterman.html">
-   12. Two Modifications of Mean-Variance Portfolio Theory
+   11. Two Modifications of Mean-Variance Portfolio Theory
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="BCG_complete_mkts.html">
-   13. Irrelevance of Capital Structures with Complete Markets
+   12. Irrelevance of Capital Structures with Complete Markets
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="BCG_incomplete_mkts.html">
-   14. Equilibrium Capital Structures with Incomplete Markets
+   13. Equilibrium Capital Structures with Incomplete Markets
   </a>
  </li>
 </ul>
@@ -820,47 +815,47 @@ above.</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_model.html">
-   15. Job Search I: The McCall Search Model
+   14. Job Search I: The McCall Search Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_model_with_separation.html">
-   16. Job Search II: Search and Separation
+   15. Job Search II: Search and Separation
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_fitted_vfi.html">
-   17. Job Search III: Fitted Value Function Iteration
+   16. Job Search III: Fitted Value Function Iteration
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_correlated.html">
-   18. Job Search IV: Correlated Wage Offers
+   17. Job Search IV: Correlated Wage Offers
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="career.html">
-   19. Job Search V: Modeling Career Choice
+   18. Job Search V: Modeling Career Choice
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="jv.html">
-   20. Job Search VI: On-the-Job Search
+   19. Job Search VI: On-the-Job Search
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="odu.html">
-   21. Job Search VII: Search with Learning
+   20. Job Search VII: Search with Learning
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="mccall_q.html">
-   22. Job Search VIII: A McCall Worker Q-Learns
+   21. Job Search VIII: A McCall Worker Q-Learns
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="lake_model.html">
-   23. A Lake Model of Employment and Unemployment
+   22. A Lake Model of Employment and Unemployment
   </a>
  </li>
 </ul>
@@ -872,42 +867,42 @@ above.</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="cake_eating_problem.html">
-   24. Cake Eating I: Introduction to Optimal Saving
+   23. Cake Eating I: Introduction to Optimal Saving
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="cake_eating_numerical.html">
-   25. Cake Eating II: Numerical Methods
+   24. Cake Eating II: Numerical Methods
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="optgrowth.html">
-   26. Optimal Growth I: The Stochastic Optimal Growth Model
+   25. Optimal Growth I: The Stochastic Optimal Growth Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="optgrowth_fast.html">
-   27. Optimal Growth II: Accelerating the Code with Numba
+   26. Optimal Growth II: Accelerating the Code with Numba
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="coleman_policy_iter.html">
-   28. Optimal Growth III: Time Iteration
+   27. Optimal Growth III: Time Iteration
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="egm_policy_iter.html">
-   29. Optimal Growth IV: The Endogenous Grid Method
+   28. Optimal Growth IV: The Endogenous Grid Method
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ifp.html">
-   30. The Income Fluctuation Problem I: Basic Model
+   29. The Income Fluctuation Problem I: Basic Model
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ifp_advanced.html">
-   31. The Income Fluctuation Problem II: Stochastic Returns on Assets
+   30. The Income Fluctuation Problem II: Stochastic Returns on Assets
   </a>
  </li>
 </ul>
@@ -919,17 +914,17 @@ above.</p>
 <ul class="nav bd-sidenav nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="troubleshooting.html">
-   32. Troubleshooting
+   31. Troubleshooting
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="zreferences.html">
-   33. References
+   32. References
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="status.html">
-   34. Execution Statistics
+   33. Execution Statistics
   </a>
  </li>
 </ul>
