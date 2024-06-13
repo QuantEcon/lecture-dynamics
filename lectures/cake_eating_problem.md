@@ -11,10 +11,6 @@ kernelspec:
 
 # Cake Eating I: Introduction to Optimal Saving
 
-```{contents} Contents
-:depth: 2
-```
-
 ## Overview
 
 In this lecture we introduce a simple "cake eating" problem.

@@ -19,10 +19,6 @@ kernelspec:
 
 # Wealth Distribution Dynamics
 
-```{contents} Contents
-:depth: 2
-```
-
 ```{seealso}
 A [version of this lecture](https://jax.quantecon.org/wealth_dynamics.html) using a `GPU`
 is [available here](https://jax.quantecon.org/wealth_dynamics.html)

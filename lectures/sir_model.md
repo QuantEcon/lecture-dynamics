@@ -19,10 +19,6 @@ kernelspec:
 
 # {index}`Modeling COVID 19 <single: Modeling COVID 19>`
 
-```{contents} Contents
-:depth: 2
-```
-
 ## Overview
 
 This is a Python version of the code for analyzing the COVID-19 pandemic

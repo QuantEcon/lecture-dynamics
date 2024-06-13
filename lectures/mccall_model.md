@@ -20,10 +20,6 @@ kernelspec:
 
 # Job Search I: The McCall Search Model
 
-```{contents} Contents
-:depth: 2
-```
-
 ```{epigraph}
 "Questioning a McCall worker is like having a conversation with an out-of-work friend:
 'Maybe you are setting your sights too high', or 'Why did you quit your old job before you

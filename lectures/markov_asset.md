@@ -23,10 +23,6 @@ kernelspec:
 ```{index} single: Models; Markov Asset Pricing
 ```
 
-```{contents} Contents
-:depth: 2
-```
-
 ```{epigraph}
 "A little knowledge of geometric series goes a long way" -- Robert E. Lucas, Jr.
 ```

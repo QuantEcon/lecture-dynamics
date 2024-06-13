@@ -20,10 +20,6 @@ kernelspec:
 
 # {index}`Optimal Growth I: The Stochastic Optimal Growth Model <single: Optimal Growth I: The Stochastic Optimal Growth Model>`
 
-```{contents} Contents
-:depth: 2
-```
-
 ## Overview
 
 In this lecture, we're going to study a simple optimal growth model with one

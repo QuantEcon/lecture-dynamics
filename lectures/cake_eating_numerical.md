@@ -11,10 +11,6 @@ kernelspec:
 
 # Cake Eating II: Numerical Methods
 
-```{contents} Contents
-:depth: 2
-```
-
 In addition to what's in Anaconda, this lecture will require the following library:
 
 ```{code-cell} ipython

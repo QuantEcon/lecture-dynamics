@@ -22,10 +22,6 @@ kernelspec:
 ```{index} single: Markov process, inventory
 ```
 
-```{contents} Contents
-:depth: 2
-```
-
 ## Overview
 
 In this lecture we will study the time path of inventories for firms that

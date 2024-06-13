@@ -23,10 +23,6 @@ kernelspec:
 ```{index} single: Models; Harrison Kreps
 ```
 
-```{contents} Contents
-:depth: 2
-```
-
 In addition to what's in Anaconda, this lecture uses following libraries:
 
 ```{code-cell} ipython
