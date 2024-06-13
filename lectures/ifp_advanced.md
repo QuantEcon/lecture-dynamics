@@ -19,10 +19,6 @@ kernelspec:
 
 # {index}`The Income Fluctuation Problem II: Stochastic Returns on Assets <single: The Income Fluctuation Problem II: Stochastic Returns on Assets>`
 
-```{contents} Contents
-:depth: 2
-```
-
 In addition to what's in Anaconda, this lecture will need the following libraries:
 
 ```{code-cell} ipython

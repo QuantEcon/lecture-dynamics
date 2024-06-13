@@ -20,10 +20,6 @@ kernelspec:
 
 # Job Search VII: Search with Learning
 
-```{contents} Contents
-:depth: 2
-```
-
 In addition to what’s in Anaconda, this lecture deploys the libraries:
 
 ```{code-cell} ipython
